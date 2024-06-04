@@ -30,17 +30,17 @@ async def send_mail(to: str, subject: str, message: str) -> typing.Optional[True
         smtpObj = smtplib.SMTP('smtp.yandex.ru', 587, local_hostname=local_hostname)
         smtpObj.ehlo()
         smtpObj.starttls()
-        smtpObj.login('Kursachmoment@yandex.ru', 'afwdjrfwspfczvsv')
+        smtpObj.login('', '')
         
         # Construct the email message
         msg = EmailMessage()
         msg.set_content(message)
         msg['Subject'] = subject
-        msg['From'] = 'Kursachmoment@yandex.ru'
+        msg['From'] = ''
         msg['To'] = to
         
         # Adding more headers to avoid spam filters
-        msg['Reply-To'] = 'Kursachmoment@yandex.ru'
+        msg['Reply-To'] = ''
         
         smtpObj.send_message(msg)
         smtpObj.quit()
