@@ -1,0 +1,72 @@
+.allMain{
+    color: #fff;
+}
+
+.cat{
+    margin-top: 32px;
+    height: 100vh;
+    margin-bottom: 56px;
+}
+
+.catText{
+    background-color: #1f1f1f;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 64px;
+    box-shadow:0 0 24px #1f1f1f;
+}
+
+
+.cat h1{
+    font-size: 26px;
+    margin-bottom: 24px;
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+
+
+.cat p{
+    width: 60vw;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.cat img{
+    height: 60vh;
+    width: 550px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid;
+    /* border-radius: 50%; */
+    box-shadow: 0 0 16px #000000;
+}
+
+.cat button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 8px 24px;
+    background-color: #1f1f1f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius:8px;
+    transition: all .3s ease;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.cat button:hover{
+    background-color: #2e4964;
+        box-shadow: 0px 0px 0px 2px #1f1f1f, 
+                0px 0px 4px #1f1f1f,
+                0px 0px 8px #1f1f1f;
+}

@@ -1,0 +1,29 @@
+
+.orders
+{   
+    margin: 0 auto;
+}
+
+.orders ul 
+{
+    margin-top: 16px;
+}
+
+.orders-data 
+{
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.orders-data div
+{
+    display: flex;
+}
+
+.orders-data  p, select
+{
+    margin: 8px;
+}

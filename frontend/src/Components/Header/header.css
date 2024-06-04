@@ -1,0 +1,66 @@
+
+
+.app-container {
+  position: relative;
+  
+}
+
+.center-right-button {
+  position: fixed;
+  top:50%;
+  left: 0px;
+  transition: left 0.5s;
+  z-index: 99;
+  border: none;
+  background-color: unset;
+}
+
+.side-panel {
+  padding: 25vh 50px;
+  height: 100vh;
+  background: rgba(20,20,20,0.5);
+  position: fixed;
+  top: 0;
+  left: -400px;
+  width: 300px;
+  height: 100vh;
+  transition: left 0.5s;
+  backdrop-filter: blur(16px);
+  z-index: 999999;
+}
+
+.opened {
+  left: 400px;
+}
+
+.open {
+  left: 0;
+}
+
+
+.navbar li {
+  margin: 25px 0;
+  font-size: 24px;
+  margin-bottom: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  &&:hover {
+
+    padding-left:13px;
+    
+
+  }
+}
+
+.navbar p{
+  color: #fff;
+  position: absolute;
+  font-size: 24px;
+  top: 60%;
+}
+
+
+.rotate-180 {
+  transform: rotate(180deg);
+}

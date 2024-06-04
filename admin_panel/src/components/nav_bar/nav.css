@@ -1,0 +1,57 @@
+.nav-bar-panel-logo img
+{
+    width: 64px;
+    margin-top: 24px;
+}
+
+.nav-bar-panel-logo 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #9966FF;
+    margin: 0 0 32px 0;
+}
+
+.nav-bar-content
+{
+    position: fixed;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    height: 100vh;
+}
+
+.nav-bar-panel 
+{
+    width: 300px;
+    height: 100vh;
+}
+
+.nav-bar-panel nav
+{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.nav-bar-panel nav li
+{
+    padding: 16px 0 16px 0;
+    transition: 0.2s ease-out;
+    margin: 16px;
+}
+
+.nav-bar-panel nav li:hover
+{
+    background-color: #7978e9;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.nav-bar-panel .active 
+{
+    background-color: #4b40ac;
+    border-radius: 10px;
+    color: #fff;
+}

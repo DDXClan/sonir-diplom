@@ -1,0 +1,48 @@
+.all-products li
+{
+    display: flex;
+    padding: 12px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #98bdff;
+    justify-content: space-between;
+    color: #fff;
+    font-family: sans-serif;
+    box-shadow: 0 0 10px #c2d6fa;
+    transition: 0.2s ease-out;
+}
+
+.all-products li:hover
+{
+    background-color: #4b49ac;
+}
+
+.all-products.delete li:hover
+{
+    background-color: #f3797e ;
+}
+
+.all-products.update li:hover
+{
+    background-color: #ffb01c;
+}
+
+.all-products ul
+{
+    background-color: #fff;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.all-products-name-and-id
+{
+    display: flex;
+}
+
+.all-products-name-and-id p
+{
+    margin-left: 20px;
+}
+
+
+

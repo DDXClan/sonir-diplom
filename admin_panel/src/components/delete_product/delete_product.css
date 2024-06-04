@@ -1,0 +1,41 @@
+.delete-product-menu 
+{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.delete-product-menu-content
+{
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.delete-product-menu-change
+{
+    display: flex;
+    justify-content: space-around;
+}
+.delete-product-menu-content h2
+{
+    font-size: 1.5rem;
+}
+
+.delete-product-menu-change p
+{
+    margin: 24px 0 0 0;
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    background-color: #7da0fa;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+
+.delete-product-menu-content p:hover
+{
+    background-color: #4b49ac;
+}

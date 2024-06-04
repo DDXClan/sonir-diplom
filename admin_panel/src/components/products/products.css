@@ -1,0 +1,38 @@
+.products-menu 
+{
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    margin: 0  auto;
+    
+    
+}
+
+.products-menu ul
+{   
+    background-color: #fff;
+    padding: 32px;
+    box-shadow: 0 0 20px #000;
+    border-radius: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3rem;
+}
+
+.products-menu li
+{
+    padding: 20px;
+    margin: 8px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    background-color: #4b49ac;
+    box-shadow:  0 0 15px #4b49ac;
+}
+
+.products-menu li:hover
+{
+    background-color: #7979e9;
+}
